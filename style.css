@@ -77,8 +77,10 @@ p{
     margin-bottom: 20px;
 }
 
-#title_img{
+.title_img{
     width: 90vw;
+    max-width: 900px;
+    min-width: 500px;
 
 }
 
@@ -101,12 +103,14 @@ p{
     justify-items: center;
 }
 
-.main_title{
+#main_title{
     /* border: 2px solid red; */
     width: 90vw;
     grid-area: 4/3/5/5;
     display: flex;
     position: relative;
+    max-width: 900px;
+    min-width: 500px;
 }
 
 .title_info{
@@ -309,8 +313,13 @@ p{
 }
 
 
+
+/* artist page */
+
+
+
 h1{
-    margin-top: 140px;
+    margin-top: 160px;
     margin-left: 55px;
     font-family: "forma-djr-display", sans-serif;
     font-weight: 500;
@@ -318,7 +327,7 @@ h1{
 }
 
 .painting_info_2{
-    margin-top: 6px;
+    margin-top: 10px;
     margin-left: 55px;
     font-family: "baskerville-display-pt", serif;
     font-weight: 400;
@@ -328,13 +337,15 @@ h1{
 .paint_img{
     width: 98vw;
     margin: auto;
+    margin-top: 30px;
     max-width: 800px;
 }
 
 .painting_description{
+    margin-top: 40px;
     margin-left: 55px;
-    width: 80vw;
-    max-width: 600px;
+    width: 70vw;
+    max-width: 500px;
 }
 
 .last_part{
@@ -342,34 +353,46 @@ h1{
 }
 
 .half_line{
+    margin-top: 80px;
     margin-left: 55px;
     width: 70vw;
 }
 
+/* .artist_section{
+    border: 2px solid red;
+
+} */
+
 .about_artist{
-    margin-top: 55px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .artist_info{
     /* border: 2px solid red; */
     display: flex;
     margin: 55px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+    gap: 12px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .artist_description{
     /* border: 2px solid purple; */
-    width: 50vw;
-    max-width: 300px;
+    margin-top: 30px;
+    width: 70vw;
+    max-width: 500px;
+    margin-bottom: 30px;
 }
 
 .villalongo{
     /* border: 2px solid blue; */
-    margin-left: 55px;
-    width: 40%;
-    height: 40%;
-    max-width: 330px;
+    width: 300px;
 
 }
 
@@ -379,6 +402,7 @@ h1{
     margin: 55px;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 
 .ica_logo{
@@ -389,7 +413,7 @@ h1{
     font-family: "forma-djr-display", sans-serif;
     font-weight: 500;
     font-style: normal;
-    letter-spacing: .5px;   
+    letter-spacing: .7px;   
 }
 
 
