@@ -76,7 +76,7 @@ p{
     margin-bottom: 20px;
 }
 
-.title_img{
+#title_img{
     width: 90vw;
 }
 
@@ -307,6 +307,64 @@ p{
 }
 
 
+h1{
+    margin-top: 140px;
+    margin-left: 35px;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;   
+}
+
+.painting_info_2{
+    margin-top: 6px;
+    margin-left: 35px;
+    font-family: "baskerville-display-pt", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.paint_img{
+    width: 98vw;
+    margin: auto;
+}
+
+.painting_description{
+    margin-left: 35px;
+    width: 80vw;
+}
+
+.last_part{
+    margin-bottom: 35px;
+}
+
+.half_line{
+    margin-left: 35px;
+    width: 70vw;
+}
+
+.about_artist{
+    margin-top: 35px;
+}
+
+.artist_info{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artist_description{
+    /* border: 2px solid purple; */
+    width: 50vw;
+}
+
+.villalongo{
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 40%;
+
+}
 
 
 
