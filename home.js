@@ -1,3 +1,1 @@
-window.onload = function() {
-    window.scrollTo()
-}
+window.location.href = "#test";

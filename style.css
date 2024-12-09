@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-padding-top: 250px;
+}
+
 img{
     display: block;
 }
@@ -42,6 +46,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
 }
 
@@ -78,10 +83,10 @@ p{
     margin-bottom: 20px;
 }
 
-.title_img{
-    width: 90vw;
-    max-width: 900px;
-    min-width: 500px;
+#title_img{
+    width: 100vw;
+    /* max-width: 900px;
+    min-width: 500px; */
 
 }
 
@@ -104,14 +109,14 @@ p{
     justify-items: center;
 }
 
-#main_title{
+.main_title{
     /* border: 2px solid red; */
-    width: 90vw;
+    width: 100vw;
     grid-area: 4/3/5/5;
     display: flex;
     position: relative;
-    max-width: 900px;
-    min-width: 500px;
+    /* max-width: 900px; */
+    /* min-width: 500px; */
 }
 
 .title_info{
@@ -119,7 +124,7 @@ p{
     width: 180px;
     position: absolute;
     bottom: 21%;
-    right: 2%;
+    right: 0;
 }
 
 .handprint{
