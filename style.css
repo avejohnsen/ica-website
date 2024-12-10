@@ -5,6 +5,7 @@
 
 html{
     scroll-padding-top: 250px;
+
 }
 
 img{
@@ -24,12 +25,14 @@ a{
 }
 
 .title{
+    /* border: 2px solid red; */
     font-family: "forma-djr-display", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 2rem;
     text-decoration: none;
     color: black;
+    letter-spacing: .7px;
 }
 
 .nav{
@@ -39,6 +42,7 @@ a{
     text-decoration: none;
     color: black;
     letter-spacing: .5px;
+
 }
 
 header{
@@ -46,17 +50,23 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    -webkit-backdrop-filter: blur(6px);
-    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
 }
 
 nav{
+    /* border: 2px solid red; */
     display: flex;
-    gap: 12px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .nav:hover{
+    color: rgb(63, 119, 98);
+    transition: color 0.25s ease;
+}
+
+.title:hover{
     color: rgb(63, 119, 98);
     transition: color 0.25s ease;
 }
@@ -323,6 +333,7 @@ p{
 /* artist page */
 
 
+
 .painting_body{
     max-width: 1000px;
     margin: auto;
@@ -333,7 +344,8 @@ h1{
     margin-left: 55px;
     font-family: "forma-djr-display", sans-serif;
     font-weight: 500;
-    font-style: normal;   
+    font-style: normal;  
+    letter-spacing: .75px; 
 }
 
 .painting_info_2{
@@ -343,6 +355,7 @@ h1{
     font-weight: 400;
     font-style: normal; 
     width: 50vw;
+    color: rgb(74, 74, 74);
 }
 
 .paint_img{
@@ -413,10 +426,11 @@ h1{
 .footer{
     /* border: 2px solid red; */
     display: flex;
-    margin: 55px;
+    margin: 30px;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    font-size: .75rem;
 }
 
 .ica_logo{
