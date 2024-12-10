@@ -47,12 +47,12 @@ a{
 
 header{
     /* border: 2px solid red; */
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
+    padding: 15px 30px;
 }
 
 nav{
