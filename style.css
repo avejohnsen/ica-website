@@ -47,7 +47,8 @@ a{
 }
 
 header{
-    padding: 30px;
+    /* border: 2px solid red; */
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
