@@ -33,6 +33,7 @@ a{
     text-decoration: none;
     color: black;
     letter-spacing: .7px;
+    width: 600px;
 }
 
 .nav{
@@ -57,7 +58,8 @@ header{
 nav{
     /* border: 2px solid red; */
     display: flex;
-    gap: 10px;
+    justify-content: end;
+    gap: 8px;
     flex-wrap: wrap;
 }
 
@@ -356,6 +358,11 @@ h1{
     font-style: normal; 
     width: 50vw;
     color: rgb(74, 74, 74);
+}
+
+.painting_header{
+    /* border: 2px solid red; */
+    width: 50vw;
 }
 
 .paint_img{
